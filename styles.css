@@ -251,6 +251,7 @@ h2 {
     margin: 0 auto 30px;
 }
 
+/* Ajustes para dispositivos pequeños */
 @media (max-width: 480px) {
     header {
         padding: 1rem;
@@ -295,6 +296,7 @@ h2 {
     }
 }
 
+/* Ajustes para dispositivos medianos (tabletas) */
 @media (max-width: 768px) {
     header {
         flex-direction: column;
@@ -339,6 +341,7 @@ h2 {
     }
 }
 
+/* Ajustes para dispositivos de tamaño intermedio (tabletas grandes, portátiles pequeños) */
 @media (min-width: 769px) and (max-width: 1199px) {
     header {
         flex-direction: column;
@@ -369,5 +372,3 @@ h2 {
         grid-template-columns: repeat(2, 1fr);
     }
 }
-
-
